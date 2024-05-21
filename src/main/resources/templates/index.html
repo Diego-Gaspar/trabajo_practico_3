@@ -3,28 +3,20 @@
      <head>
           <meta charset="UTF-8">
           <title>Tp3 Proyecto Spring boot Html</title>
-          <style>
-               table {
-                   border-collapse: collapse;
-               }
-               
-               table, th, td {
-                   border: 1px solid black;
-               }
-          </style>
+          <link rel="stylesheet" href="../static/css/estilos.css">
      </head>
      
      <body>
      
          <!-- Aqui se define el encabezado y título -->     
          
-         <header>
+         <header id="header">
               <h1>Bienvenido Alumno</h1>
          </header>
          
          <!-- Aqui se agrega el menu de navegación -->
          
-         <nav>
+         <nav class="nav">
             <ul>
               <li><a href="https://www.fi.unju.edu.ar">Fi Unju</a></li>
               <li><a href="https://virtual.unju.edu.ar/">Unju Virtual</a></li>
@@ -34,11 +26,11 @@
          
          <!-- Aqui se agrega el contenido principal divido en 3 secciones -->
          
-         <main>
+         <main class="main">
          
              <!-- PRIMERA SECCION -->
          
-             <section id="Seccion_Profesores_de_la_materia">
+             <section class="section">
                     <h2> Analista Programador Universitario </h2>  
                     <p>Materia: PROGRAMACIÓN VISUAL - 2do AÑO - 1er CUATRIMESTRE</p>     
                     <h3>Seccion: Docentes</h3>
@@ -52,11 +44,11 @@
              
              <!-- SEGUNDA SECCION -->
              
-             <section id="Seccion2_Horarios_de_la_materia">
+             <section class="section">
                     <h2> Analista Programador Universitario </h2>  
                     <p>Materia: PROGRAMACIÓN VISUAL - 2do AÑO - 1er CUATRIMESTRE</p>
                     <h3>Seccion: Horarios</h3>
-                    <table>
+                    <table class="table">
                     <tr>
                        <th>Comisión</th>
                        <th>Día y Hora</th>
@@ -87,7 +79,7 @@
              
              <!-- TERCERA SECCION -->
              
-             <section id="Seccion3_Horarios_de_la_materia">
+             <section class="section">
                     <h2> Analista Programador Universitario </h2>  
                     <p>Materia: PROGRAMACIÓN VISUAL - 2do AÑO - 1er CUATRIMESTRE</p>
                     <h3>Seccion: Programa</h3>
@@ -105,7 +97,7 @@
          
          <!-- Aqui se agrega el Contenido Adicional -->
          
-         <aside>
+         <aside class="additional-content">
               <h3>Contenido para dirigir a la pagina de STS4</h3>
               <ul>
                  <li><a href="https://spring.io/tools">Enlace a STS4</a></li>
@@ -115,7 +107,7 @@
          
          <!-- Aqui se agrega un Pie de Página -->
          
-         <footer>
+         <footer id="footer">
                 <h3>Información de contacto de la Facultad de Ingenieria - UNJu</h3>
                 <p>Correo electrónico:</p>
                 <ul>
